@@ -15,10 +15,12 @@ A curated list of awesome Elixir, Command Query Responsibility Segregation (CQRS
 - [Example applications](#example-applications)
 
 ## Libraries
+🟢 Active: Actively maintained (updated within the last year).
+🟡 Inactive: Not updated for over a year.
 
-- [Chronik](https://hex.pm/packages/chronik) - A lightweight event sourcing micro framework for Elixir.
+- [Chronik](https://hex.pm/packages/chronik) 🟡(2018) - A lightweight event sourcing micro framework for Elixir. 
 
-- [Commanded](https://github.com/commanded/commanded) - Use Commanded to build your own Elixir applications following the CQRS/ES pattern. Provides support for command registration and dispatch, hosting and delegation to aggregate roots, event handling, and long running process managers.
+- [Commanded](https://github.com/commanded/commanded) 🟢 - Use Commanded to build your own Elixir applications following the CQRS/ES pattern. Provides support for command registration and dispatch, hosting and delegation to aggregate roots, event handling, and long running process managers.
 
     - [Commanded audit middleware](https://github.com/commanded/commanded-audit-middleware) - Command auditing middleware for Commanded CQRS/ES applications using Ecto for persistence.
 
@@ -28,35 +30,36 @@ A curated list of awesome Elixir, Command Query Responsibility Segregation (CQRS
 
     - [Commanded Swarm registry](https://github.com/commanded/commanded-swarm-registry) - Distributed process registry using Swarm for Commanded.
 
-- [Disco](https://github.com/andreapavoni/disco) - Simple, opinionated yet flexible library to build CQRS/ES driven systems.
+- [Disco](https://github.com/andreapavoni/disco) 🟡(2019) - Simple, opinionated yet flexible library to build CQRS/ES driven systems.
 
+- [ES](https://github.com/nerdyworm/es) 🟡(2017)- Event Sourcing for Ecto and Postgresl/Dynamodb events storage.
+
+- [EventBus](https://github.com/otobus/event_bus) 🟡(2022)- Traceable, extendable and minimalist event bus implementation for Elixir with built-in event store and event watcher based on ETS.
+
+- [Eventlog](https://github.com/nerdyworm/eventlog) 🟡(2019) - A simple event log backed by dynamodb and dynamodb streams.
+
+- [EventStore](https://github.com/commanded/eventstore) 🟢 - An Elixir event store using PostgreSQL for persistence.
+
+- [Extreme](https://github.com/exponentially/extreme) 🟢- Elixir adapter for Greg Young's [Event Store](https://geteventstore.com/).
+
+- [Fable](https://github.com/CargoSense/fable) 🟢 - An Elixir event sourcing library.
+
+- [Helios.Aggregate](https://github.com/exponentially/helios_aggregate) 🟡(2018) - Elixir library defining Aggregate behaviour and providing extendable facility for aggregate command pipeline.
+
+- [Incident](https://github.com/pedroassumpcao/incident) 🟢 - Event Sourcing and CQRS in Elixir abstractions.
+
+- [Maestro](https://github.com/toniqsystems/maestro) 🟡(2019) - An Elixir event store + CQRS library.
+
+- [Pachyderm](https://github.com/CrowdHailer/pachyderm) 🟡(2019) - A virtual/immortal/durable/resilient/global actor "always exists" and "never fails".
+
+- [Perhap](https://github.com/Perhap/perhap) 🟡(2019) - Purely functional event store and service framework inspired by domain driven design and reactive architectures.
+
+- [Seven Otters](https://github.com/sevenotters/sevenotters) 🟡(2022)- A CQRS/ES Starter Kit for the BEAM.
+
+- [TeaVent](https://github.com/Qqwy/elixir-tea_vent) 🟡(2021) - TeaVent allows you to perform event-dispatching in a style that is a mixture of Event Sourcing and The "Elm Architecture" (TEA).
+
+## Archived Libraries
 - [Eidetic](https://github.com/rawkode/eidetic-elixir) - An event sourcing library for Elixir.
-
-- [ES](https://github.com/nerdyworm/es) - Event Sourcing for Ecto and Postgresl/Dynamodb events storage.
-
-- [EventBus](https://github.com/otobus/event_bus) - Traceable, extendable and minimalist event bus implementation for Elixir with built-in event store and event watcher based on ETS.
-
-- [Eventlog](https://github.com/nerdyworm/eventlog) - A simple event log backed by dynamodb and dynamodb streams.
-
-- [EventStore](https://github.com/commanded/eventstore) - An Elixir event store using PostgreSQL for persistence.
-
-- [Extreme](https://github.com/exponentially/extreme) - Elixir adapter for Greg Young's [Event Store](https://geteventstore.com/).
-
-- [Fable](https://github.com/CargoSense/fable) - An Elixir event sourcing library.
-
-- [Helios.Aggregate](https://github.com/exponentially/helios_aggregate) - Elixir library defining Aggregate behaviour and providing extendable facility for aggregate command pipeline.
-
-- [Incident](https://github.com/pedroassumpcao/incident) - Event Sourcing and CQRS in Elixir abstractions.
-
-- [Maestro](https://github.com/toniqsystems/maestro) - An Elixir event store + CQRS library.
-
-- [Pachyderm](https://github.com/CrowdHailer/pachyderm) - A virtual/immortal/durable/resilient/global actor "always exists" and "never fails".
-
-- [Perhap](https://github.com/Perhap/perhap) - Purely functional event store and service framework inspired by domain driven design and reactive architectures.
-
-- [Seven Otters](https://github.com/sevenotters/sevenotters) - A CQRS/ES Starter Kit for the BEAM.
-
-- [TeaVent](https://github.com/Qqwy/elixir-tea_vent) - TeaVent allows you to perform event-dispatching in a style that is a mixture of Event Sourcing and The "Elm Architecture" (TEA).
 
 ## Community resources
 
